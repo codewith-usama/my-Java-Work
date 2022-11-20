@@ -1,3 +1,21 @@
+/*
+
+QUESTION#4
+ A library wants to organize its system by categorizing books such as Java, C, C++,
+etc. Implement a program that contains a base class called Books that will
+contain members such as book ID, book name, book author, ISBN and price. All
+are protected members.
+ Derive one class from the base class and name it as “Category1”.
+ The class has one data member that is the category.
+ Make a parameterized constructor and invoke the base class’s constructor.
+ Create a display function and display all the details of the books in Category1 (3
+books).
+ In the main program, perform object up casting and cast child object to a parent
+class object (Book).
+
+ */
+
+
 public class Task_04 {
     public static void main(String[] args) {
         Books b1 = (Books) new Category1("123", "C++", "John", 123456, 344, "Programming");
